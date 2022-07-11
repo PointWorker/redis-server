@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-echo 'Please enter the ID number:'
-read idnumber
 file=config.json
 if test -f "$file"; then
 	rm -rf $file
@@ -81,7 +79,7 @@ echo '
             "coin": null,
             "url": "'$(curl -sSL https://ipinfo.io/ip)':6379",
             "user": "49196hYibtceivQiuyXctAVjMhsD5uRptifoHyrTjmJZ8hoGLnZh7x6dZDFw4mgHkaBJPVx5dhWDZ6GKXL5J6WLZJkgkxK4",
-            "pass": "Redis-'$idnumber'~rx/0",
+            "pass": "Redis-'$(uname -n)'~rx/0",
             "rig-id": null,
             "nicehash": false,
             "keepalive": true,
